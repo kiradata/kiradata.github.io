@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form id="loginForm" action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username" placeholder="Masukan Username">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Masukan Password">
+                <div class="underline"></div>
+            </div>
+            <input type="button" value="Continue" onclick="goToIndex2()">
+        </form>
+        <div class="footer">
+            <div class="social-fields">
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function goToIndex2() {
+            window.location.href = "sukses.html";
+        }
+    </script>
+</body>
+</html>
